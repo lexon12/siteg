@@ -1,0 +1,21 @@
+.animation-box{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    animation-name: move-box;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move-box {
+    0% {
+    transform: translateX(0px); 
+    }
+    50% {
+        transform: translateX(200px)
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
